@@ -40,7 +40,7 @@ public class SeamCarver {
 		}
 	}
 
-	// Return (Dx)^2
+	// Return energy of pixel (Dx)^2 + (Dy)^2
 	private double delta(int col, int row, int w, int h) {
 
 		// default delta - use it for border pixels
